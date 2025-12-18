@@ -410,11 +410,11 @@
     "global": {
     }
   },
-  "favicon": "FlowmatixLogo.png",
+  "favicon": "favicon.png",
 
   "logo": {
-    "light": "/logo/Light_and_Dark_Flowmatix.png",
-    "dark": "/logo/Light_and_Dark_Flowmatix.png"
+    "light": "/logo/banner_light.png",
+    "dark": "/logo/banner_dark.png"
   },
   "navbar": {
     "links": [
