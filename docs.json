@@ -272,18 +272,11 @@
               "my-account/password"
             ]
           },
-          {
-            "group" : "Suscription and Plans",
-            "pages" : [
-              "subscription-plan/legacy",
-              "subscription-plan/latest"
-            ]
-          },
+          
           {
             "group": "Frequently Asked Questions (FAQs)",
             "pages": [
               "faqs/onboarding_faqs",
-              "faqs/edit_chat_flow",
               "faqs/bot_installation",
               "faqs/inbox_faq",
               "faqs/profile_team_notificcation",
@@ -292,7 +285,6 @@
               "faqs/bot_setting",
               "faqs/whatsapp",
               "faqs/subscription",
-              "faqs/product_update",
               "faqs/chatgpt",
               "faqs/common_err_troubleshoot"
             ]
@@ -331,20 +323,8 @@
               "whatsapp-meta/reconnect_bot",
               "whatsapp-meta/recover_restricted_account"
             ]
-          },
-          {
-            "group": "Must Know How Of Flowmatix",
-            "pages": [
-              "must-know-how-of-Flowmatix/manage_use_custom_attributes",
-              "must-know-how-of-Flowmatix/call_external_api",
-              "must-know-how-of-Flowmatix/managing_team_roles",
-              "must-know-how-of-Flowmatix/unlocking_botpenguin_ai",
-              "must-know-how-of-Flowmatix/support_agent_guide",
-              "must-know-how-of-Flowmatix/whatsapp_notification",
-              "must-know-how-of-Flowmatix/chatbot_user_authentication"
-            ]
           }
-          
+
         ]
       },
        {
