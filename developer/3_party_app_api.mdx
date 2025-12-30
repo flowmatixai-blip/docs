@@ -2,6 +2,80 @@
 title: "3rd Party Apps API"
 ---
 
-<Check>
-  We're adding this article soon ☺️ Stay tuned 🐧
-</Check>
+## **What are API's in Flowmatix?**
+
+The **API Section in Flowmatix** allows you to connect your chatbot with external services, fetch real-time data, and send dynamic information to users during a conversation. Instead of relying only on static messages, you can integrate APIs to fetch product details, check order status, or push data to your CRM directly from the chatbot flow.
+
+This enables your chatbot to become more intelligent, versatile, and personalized, thereby improving user engagement and automating tasks seamlessly.
+
+---
+
+## **Benefits of using APIs in Flowmatix**
+
+- **Enable dynamic conversations** by fetching real-time data from external systems.
+- **Improve personalization** by mapping API responses to user attributes.
+- **Automate workflows** by sending and receiving data without manual intervention.
+- **Increase reliability** with error handling and fallback messages when APIs fail.
+
+## **Setting up API's in Flowmatix**
+
+1. Login to your **Flowmatix Dashboard**
+2. Go to the **Developer Section** from the sidebar.
+
+
+1. Click on **“Create API”** to add a new API.
+
+
+1. To create an API, enter the following details:
+   1. Enter a **Name** for your API (e.g., _Products API_).
+   2. Paste the **API URL** you want to use.
+
+
+1. Click **Test** to see the API response. The response will appear in the **Response Section**.
+2. Save the API configuration after testing. The user can also configure the parameters, headers, body, etc.
+
+---
+
+#### **Configure API Details**
+
+1. **Parameters Section**
+   - Add variables to your API URL.
+   - Map **custom attributes** to dynamically pass user inputs.
+2. **Headers Section**
+   - Add headers required by your API.
+   - You can also map attributes here for dynamic values.
+3. **Body Section**
+   - Add request payload in **JSON format**.
+   - Supports **static values** or mapped attributes.
+
+---
+
+#### **Manage API Responses**
+
+1. Once the API is tested, you can **map API responses to custom attributes**.
+2. Example: Map the API’s `title` field to a chatbot’s custom attribute.
+3. These attributes can then be reused later in the conversation flow.
+
+---
+
+#### **Use API in Chatbot Flow**
+
+1. Create a new flow (e.g., _Products Test_).
+2. Add default or custom **questions** to capture user inputs.
+3. Open the **Request Information Tab** and select the **API Component**.
+4. Choose the API you created earlier.
+5. Set up response handling:
+   - **Success (200 status code):** Redirect user to success message or next step.
+   - **Failure (4xx codes):** Redirect user to a fallback message.
+   - **Server Errors (5xx codes):** Redirect to another prompt (e.g., _How was your day?_).
+
+---
+
+#### **Testing & API Logs**
+
+1. Test your API flow using **“Test Live on WhatsApp Web”**.
+2. Navigate to **Developer Section → Your APIs → Logs**.
+3. Here, you can check:
+   - API call history
+   - Response codes (200, 400, 500, etc.)
+   - Errors and reasons for failure
